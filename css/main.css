@@ -1,0 +1,236 @@
+/*****************Tag Selector*************************/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+}
+
+h3 {
+    margin-bottom: 2px;
+}
+
+a {
+    color: #000000;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=tel] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/*****************Class Selector*************************/
+
+.logo {
+    width: 120%;
+}
+
+.container-fluid {
+    padding: 5% 20%;
+}
+
+
+/*****************Navbar*************************/
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar {
+    padding: 4.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+
+/*****************Button*************************/
+
+.service-button {
+    box-shadow: 0px 0px 0px 0px #29bbff;
+    background: linear-gradient(to bottom, #2dabf9 5%, #19558a 100%);
+    background-color: #2dabf9;
+    border-radius: 8px;
+    border: 2px solid #0b0e07;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+}
+
+.service-button:hover {
+    background: linear-gradient(to bottom, #19558a 5%, #2dabf9 100%);
+    background-color: #19558a;
+}
+
+.service-button {
+    position: relative;
+    top: 1px;
+}
+
+.about {
+    width: 450px;
+    height: 350px;
+}
+
+.skills {
+    text-align: center;
+    background-color: #00bfff;
+    padding: 4% 5%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.code {
+    width: 52%;
+    float: left;
+    margin-right: 65px;
+}
+
+.dev {
+    width: 52%;
+    float: right;
+    margin-left: 65px;
+}
+
+.app {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.tech {
+    text-align: center;
+    padding: 3%;
+}
+
+.cont {
+    text-align: center;
+    padding: 3%;
+}
+
+.contact {
+    padding: 10%;
+}
+
+.container1 {
+    border-radius: 5px;
+    background-color: #00bfff;
+    padding: 20px;
+}
+
+.copy {
+    padding: 30px 0;
+    margin: 50px 0;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+/*****************ID Selector*************************/
+
+#title {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+#About {
+    padding: 7% 13%;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: #29bbff;
+    margin: 30px 0;
+    padding: 3% 32%;
+    box-sizing: border-box;
+    box-shadow: #000000;
+}

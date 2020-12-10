@@ -1,0 +1,65 @@
+/*****************Tag Selector*************************/
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/*****************Class Selector*************************/
+
+.logo {
+    width: 115%;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+/*****************Navbar*************************/
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar {
+    padding: 10%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+
+/*****************Button*************************/
+
+.service-button {
+    margin: 5% 3% 5% 0;
+    margin-left: 15%;
+}
+
+
+/*****************ID Selector*************************/
+
+#title {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+#footer {
+    background-color: blueviolet;
+}
